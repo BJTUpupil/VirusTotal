@@ -13,7 +13,7 @@ import csv
 if "VTSCAN_API_KEY" in os.environ:
     api_key=os.environ.get("VTSCAN_API_KEY") #export VTSCAN_API_KEY=YOURAPIKEY or pass it with "-k" flag
 else:
-    api_key="1c960c1d3a9020d8184f7a375c4316eff29e77405921fbdee335255c104a31e4"
+    api_key="Your-key"
 
 def check_response_code(resp):
     print(resp.status_code)
