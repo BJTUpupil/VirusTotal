@@ -63,7 +63,7 @@ def write_data(data):
 def main():
 
 
-    folder = "F:\\apks"
+    folder = "Your Folder Location"
     DetectedFiles = os.listdir(folder)
 
     #csv文件的初始化
