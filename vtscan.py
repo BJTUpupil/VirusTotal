@@ -133,7 +133,7 @@ def main():
         print("----------------------获取检测报告---------------------\n")
         print(file)
         tag = 0
-        if (resp_json["data"]["attributes"]["total_votes"]["harmless"] + resp_json["data"]["attributes"]["total_votes"][
+        if (resp_json["data"]["attributes"]["last_analysis_stats"]["harmless"] + resp_json["data"]["attributes"]["last_analysis_stats"][
             "malicious"] > 0):
             tag = 1
         data = [file, get_hash256(file), tag]
